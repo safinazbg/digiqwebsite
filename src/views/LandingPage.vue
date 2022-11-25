@@ -40,7 +40,7 @@
                   impedit iste, iusto molestiae neque qui.
                 </template>
                 <template #link>
-                  <router-link to="/project">Project overview...</router-link>
+                  <router-link to="/project" class="font-bold">Project overview >></router-link>
                 </template>
               </LBoxText>
 
@@ -63,6 +63,7 @@
                   src="https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1639&q=80"
                   alt="unsplash image by Michael Dziedzic"
                   style="filter: saturate(0) brightness(1.4) invert(1);"
+                  class="h-full"
               >
 
             </template>
@@ -79,7 +80,7 @@
                   the cutting edge of quantum capabilities by 2030”.
                 </template>
                 <template #link>
-                  <router-link to="/project#GoalsAndObjectives">What steps is DigiQ taking to achieve this goal?
+                  <router-link to="/project#GoalsAndObjectives" class="font-bold">What steps is DigiQ taking to achieve this goal? >>
                   </router-link>
                 </template>
               </LBoxText>
@@ -161,19 +162,19 @@
                 <div class="text-xl flex flex-col items-start gap-4">
                   <div class="flex items-center gap-4">
                     <svg width="100" height="100">
-                      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                      <circle cx="50" cy="50" r="40" stroke="#ff781f" stroke-width="4" fill="#110a36" />
                     </svg>
                     Enhancing the quality of Quantum Technology in higher education
                   </div>
                   <div class="flex items-center gap-4">
                     <svg width="100" height="100">
-                      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                      <circle cx="50" cy="50" r="40" stroke="#ff781f" stroke-width="4" fill="#110a36" />
                     </svg>
                     Feeding the QT Workforce pipeline
                   </div>
                   <div class="flex items-center gap-4">
                     <svg width="100" height="100">
-                      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                      <circle cx="50" cy="50" r="40" stroke="#ff781f" stroke-width="4" fill="#110a36" />
                     </svg>
                     Impact on Industry including SMEs
                   </div>
@@ -181,7 +182,7 @@
               </div>
             </template>
             <template #link>
-              <router-link to="/project#DelieverablesAndImpact">Deliverables and Expected Impact
+              <router-link to="/project#DelieverablesAndImpact" class="font-bold"> Deliverables and Expected Impact >>
               </router-link>
             </template>
           </LBoxText>
