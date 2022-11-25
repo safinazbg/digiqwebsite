@@ -1,5 +1,5 @@
 <template>
-  <nav class="py-2.5">
+  <nav class="pt-8 pb-3">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <router-link :to="homeRoute">
         <img src="../../public/logo.png" class="h-12 sm:h-16"/>
@@ -16,10 +16,10 @@
               v-for="route in navItems"
               :key="route.name"
               :to="route"
-              class="block py-2 pl-4 text-lg font-semibold"
+              class="block py-2 pl-4 text-lg font-semibold font-thin"
               :class="{
                 'text-inherit': activeRouteName !== route.name,
-                'text-active': activeRouteName === route.name,
+                'text-qOrange': activeRouteName === route.name,
               }"
               aria-current="page"
           >

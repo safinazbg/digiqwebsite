@@ -5,9 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'darkBlue1': '#170071',
-        'darkBlue2':'#110a36',
-        'active': '#ff781f',
+        'qBlue': '#170071',
+        'qDarkBlue': '#110a36',
+        'qPink': '#ff1772',
+        'qLightPink': '#ffb8d4',
+        'qOrange': '#ff781f',
+        'qLightOrange': '#ffb98a',
         'textColor': '#2d2d2d',
         'backgroundColor': 'white',
       }

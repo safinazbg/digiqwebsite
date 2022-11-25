@@ -4,6 +4,6 @@
 
 @layer base {
     a {
-        @apply text-active
+        @apply text-qOrange
     }
 }

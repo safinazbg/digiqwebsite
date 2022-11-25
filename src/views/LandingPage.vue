@@ -5,17 +5,9 @@
       <LSection>
         <template #body>
 
-          <div
-              class="font-semibold text-5xl bg-darkBlue2 text-white"
-              style="
-                /*background-image: url(https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);*/
-                /*background-size: cover;*/
-                /*background-position: center center;*/
-                /*filter: saturate(0) invert(1);*/
-              "
-          >
-            <div class="w-full h-full p-16 bg-darkBlue1/40">
-              Transforming the landscape of Education and Training for the future of Quantum Workforce
+          <div class="rounded-lg font-semibold text-5xl text-qBlue">
+            <div class="w-full h-full p-16" style="line-height: 3.5rem;">
+              Transforming the Landscape of Education and Training for the Future of Quantum Workforce
             </div>
           </div>
 
@@ -27,7 +19,7 @@
 
           <LImageText
               :image-left="false"
-              class="rounded-lg overflow-hidden bg-darkBlue1/10"
+              class="rounded-lg overflow-hidden bg-white/10"
           >
 
             <template #image>
@@ -62,7 +54,7 @@
         <template #body>
 
           <LImageText
-              class="rounded-lg overflow-hidden bg-darkBlue1/10"
+              class="rounded-lg overflow-hidden bg-white/10"
           >
 
             <template #image>
@@ -160,7 +152,7 @@
       <LSection>
         <template #body>
 
-          <LBoxText class="rounded-lg overflow-hidden bg-darkBlue1/10">
+          <LBoxText class="rounded-lg overflow-hidden bg-white/10">
             <template #body>
               <div class="w-full flex flex-col items-center">
                 <div class="font-semibold text-3xl pb-12">
@@ -189,7 +181,7 @@
               </div>
             </template>
             <template #link>
-              <router-link to="/project#DeliverablesAndExpectedImpact">Deliverables and Expected Impact
+              <router-link to="/project#DelieverablesAndImpact">Deliverables and Expected Impact
               </router-link>
             </template>
           </LBoxText>

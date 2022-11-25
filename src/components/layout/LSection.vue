@@ -1,5 +1,5 @@
 <template>
-<div class="lSection bg-white/10">
+<div class="lSection bg-white/20 shadow-lg shadow-black/10 rounded-lg">
   <slot name="body">
 
 
