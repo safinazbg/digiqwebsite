@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app h-view">
+    <div class="content h-full md:container mx-auto px-20 text-lg text-textColor">
+      <nav>
+        <BurgerMenu></BurgerMenu>
+      </nav>
+      <router-view class="h-full"/>
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BurgerMenu from "@/components/BurgerMenu";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    BurgerMenu
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
