@@ -27,6 +27,7 @@ export default {
             angles.value.scrollHeight,
             document.body.scrollHeight
         ) + 500,
+        colorFunction: trianglify.colorFunctions.interpolateLinear(0.6)
       }
       const pattern = trianglify(dimensions)
 
