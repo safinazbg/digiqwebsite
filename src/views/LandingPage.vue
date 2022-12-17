@@ -5,7 +5,7 @@
 <!--      <LSection>-->
 <!--        <template #body>-->
 
-          <div class="rounded-lg font-semibold text-5xl text-qBlue">
+          <div class="rounded-lg font-semibold text-4xl text-qBlue">
             <div class="w-full h-full p-8" style="line-height: 3rem;">
               Transforming the Landscape of Education and Training for the Future of Quantum Workforce
             </div>
