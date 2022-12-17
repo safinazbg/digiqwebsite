@@ -2,17 +2,17 @@
   <div class="landingPage h-full">
     <div class="h-full flex flex-col gap-24 py-16">
 
-      <LSection>
-        <template #body>
+<!--      <LSection>-->
+<!--        <template #body>-->
 
           <div class="rounded-lg font-semibold text-5xl text-qBlue">
-            <div class="w-full h-full p-16" style="line-height: 3.5rem;">
+            <div class="w-full h-full p-8" style="line-height: 3rem;">
               Transforming the Landscape of Education and Training for the Future of Quantum Workforce
             </div>
           </div>
 
-        </template>
-      </LSection>
+<!--        </template>-->
+<!--      </LSection>-->
 
       <LSection>
         <template #body>
@@ -26,7 +26,8 @@
               <!--todo: check unsplash license-->
               <img
                   src="https://images.unsplash.com/photo-1608562719218-920013a7a249?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
-                  alt="unsplash image by Sigmund">
+                  alt="unsplash image by Sigmund"
+                  class="h-full">
 
             </template>
 

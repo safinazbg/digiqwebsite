@@ -6,6 +6,9 @@
           <nav>
             <BurgerMenu></BurgerMenu>
           </nav>
+          <div class="text-blue-900">
+          <hr>
+          </div>
           <router-view class="h-full"/>
         </div>
       </template>
