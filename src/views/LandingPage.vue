@@ -5,7 +5,7 @@
 <!--      <LSection>-->
 <!--        <template #body>-->
 
-          <div class="rounded-lg font-semibold text-4xl text-qBlue">
+          <div class="rounded-lg font-semibold text-4xl text-center text-qBlue px-6">
             <div class="w-full h-full p-8" style="line-height: 3rem;">
               Transforming the Landscape of Education and Training for the Future of Quantum Workforce
             </div>
@@ -41,7 +41,7 @@
                   impedit iste, iusto molestiae neque qui.
                 </template>
                 <template #link>
-                  <router-link to="/project" class="font-bold">Project overview >></router-link>
+                  <router-link to="/project" class="font-semibold text-sm">Project overview >></router-link>
                 </template>
               </LBoxText>
 
