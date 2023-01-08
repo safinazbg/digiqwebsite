@@ -38,7 +38,7 @@
                         <div class="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
                             <c-image
                                 class="has-shadow"
-                                :src="require('@/assets/images/hero-image.svg')"
+                                :src="require('@/assets/images/dq_icon1.png')"
                                 alt="Hero image"
                                 :width="528"
                                 :height="396" />
