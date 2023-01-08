@@ -14,7 +14,6 @@
 import CLayout from '@/layouts/LayoutDefault.vue'
 // import sections
 import CHeroSplit from '@/components/sections/HeroSplit.vue'
-import CClients from '@/components/sections/Clients.vue'
 import CFeaturesSplit from '@/components/sections/FeaturesSplit.vue'
 import CFeaturesTiles from '@/components/sections/FeaturesTiles.vue'
 
@@ -22,7 +21,6 @@ export default {
   name: 'Home',
   components: {
     CHeroSplit,
-    CClients,
     CFeaturesSplit,
     CFeaturesTiles,
   },
