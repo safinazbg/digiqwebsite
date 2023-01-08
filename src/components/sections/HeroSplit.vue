@@ -27,13 +27,13 @@
                               Transforming the Landscape of Education and Training for the Future of Quantum Workforce
                             </h1>
                             <p class="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                                DigiQ Projet is lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque cum in nobis voluptates met deserunt maiores.
                             </p>
-                            <div class="reveal-from-left" data-reveal-delay="400">
-                                <c-button tag="a" color="primary" wide-mobile href="#">
-                                    Pricing and plans
-                                </c-button>
-                            </div>
+<!--                            <div class="reveal-from-left" data-reveal-delay="400">-->
+<!--                                <c-button tag="a" color="primary" wide-mobile href="#">-->
+<!--                                    Pricing and plans-->
+<!--                                </c-button>-->
+<!--                            </div>-->
                         </div>
                         <div class="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
                             <c-image

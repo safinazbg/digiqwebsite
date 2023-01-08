@@ -17,8 +17,6 @@ import CHeroSplit from '@/components/sections/HeroSplit.vue'
 import CClients from '@/components/sections/Clients.vue'
 import CFeaturesSplit from '@/components/sections/FeaturesSplit.vue'
 import CFeaturesTiles from '@/components/sections/FeaturesTiles.vue'
-import CPricing from '@/components/sections/Pricing.vue'
-import CCta from '@/components/sections/Cta.vue'
 
 export default {
   name: 'Home',
@@ -27,8 +25,6 @@ export default {
     CClients,
     CFeaturesSplit,
     CFeaturesTiles,
-    CPricing,
-    CCta
   },
   created() {
     this.$emit('update:layout', CLayout)

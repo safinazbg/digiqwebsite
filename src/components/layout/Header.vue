@@ -25,12 +25,7 @@
                             class="list-reset text-xxs"
                             :class="navPosition && `header-nav-${navPosition}`">
                             <li>
-                                <router-link to="/secondary/">Secondary page</router-link>
-                            </li>
-                        </ul>
-                        <ul v-if="!hideSignin" class="list-reset header-nav-right">
-                            <li>
-                                <router-link to="/signup/" class="button button-primary button-wide-mobile button-sm">Sign up</router-link>
+                                <router-link to="/secondary/">Project Partners</router-link>
                             </li>
                         </ul>
                     </div>
@@ -65,7 +60,7 @@ export default {
     bottomOuterDivider: {
       type: Boolean,
       default: false
-    },    
+    },
     bottomDivider: {
       type: Boolean,
       default: false

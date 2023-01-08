@@ -171,7 +171,6 @@ import CTeam from '@/components/sections/Team.vue'
 import CRoadmap from '@/components/sections/Roadmap.vue'
 import CTestimonial from '@/components/sections/Testimonial.vue'
 import CGenericSection from '@/components/sections/GenericSection.vue'
-import CCta from '@/components/sections/Cta.vue'
 // import some required elements
 import CImage from '@/components/elements/Image.vue'
 import CInput from '@/components/elements/Input.vue'
@@ -191,7 +190,6 @@ export default {
     CTestimonial,
     CGenericSection,
     CImage,
-    CCta,
     CInput,
     CButtonGroup,
     CButton,

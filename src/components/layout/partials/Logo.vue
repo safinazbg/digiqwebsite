@@ -3,7 +3,7 @@
         <h1 class="m-0">
             <router-link to="/">
                 <c-image
-                    :src="require('@/assets/images/logo.svg')"
+                    :src="require('@/assets/images/logo.png')"
                     alt="Frame"
                     :width="32"
                     :height="32" />
