@@ -8,7 +8,6 @@
                 </div>
                 <div class="footer-bottom space-between text-xxs invert-order-desktop">
                     <c-footer-nav />
-                    <div class="footer-copyright">&copy; 2020 Frame, all rights reserved</div>
                 </div>
             </div>
         </div>
@@ -31,7 +30,7 @@ export default {
     topOuterDivider: {
       type: Boolean,
       default: false
-    },      
+    },
     topDivider: {
       type: Boolean,
       default: false

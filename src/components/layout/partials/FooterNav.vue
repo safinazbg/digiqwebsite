@@ -5,13 +5,13 @@
                 <router-link to="/contact/">Contact</router-link>
             </li>
             <li>
-                <router-link to="/about-us/">About us</router-link>
+                <router-link to="/about-us/">Project</router-link>
             </li>
             <li>
-                <router-link to="/faqs/">FAQ's</router-link>
+                <router-link to="/faqs/">Partners</router-link>
             </li>
             <li>
-                <router-link to="/support/">Support</router-link>
+                <router-link to="/support/">Resources</router-link>
             </li>
         </ul>
     </nav>

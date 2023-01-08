@@ -14,15 +14,6 @@
                     topDivider && 'has-top-divider',
                     bottomDivider && 'has-bottom-divider'
                 ]">
-        <c-section-header :data="sectionHeader" class="center-content reveal-from-top">
-          <div class="features-split-icon mb-24">
-            <c-image
-                :src="require('@/assets/images/features-split-icon.svg')"
-                alt="Features split icon"
-                :width="80"
-                :height="80"/>
-          </div>
-        </c-section-header>
         <div
             class="split-wrap"
             :class="[
@@ -108,11 +99,11 @@ export default {
   mixins: [SectionSplitProps],
   data() {
     return {
-      sectionHeader: {
-        title: 'Simplify your design process',
-        paragraph:
-            'Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.'
-      }
+      // sectionHeader: {
+      //   title: 'Simplify your design process',
+      //   paragraph:
+      //       'Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.'
+      // }
     }
   }
 }

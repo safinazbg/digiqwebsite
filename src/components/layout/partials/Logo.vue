@@ -5,8 +5,8 @@
                 <c-image
                     :src="require('@/assets/images/logo.png')"
                     alt="Frame"
-                    :width="44"
-                    :height="44" />
+                    :width="60"
+                    :height="60" />
             </router-link>
         </h1>
     </div>
