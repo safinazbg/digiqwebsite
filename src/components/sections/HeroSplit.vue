@@ -24,7 +24,7 @@
                     <div class="split-item">
                         <div class="hero-content split-item-content center-content-mobile">
                             <h1 class="mt-0 mb-16 reveal-from-left">
-                                Landing template for startups
+                              Transforming the Landscape of Education and Training for the Future of Quantum Workforce
                             </h1>
                             <p class="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
                                 Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
