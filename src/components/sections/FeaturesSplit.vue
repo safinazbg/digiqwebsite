@@ -36,13 +36,13 @@
                 class="split-item-image illustration-element-03"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('@/assets/images/features-split-image.svg')"
+                  :src="require('@/assets/images/dq_pattern.jpg')"
                   alt="Features split image 01"
                   :width="528"
                   :height="396"/>
               <div style="position:absolute;width:139.77%;max-width:139.77%;top:-13.88%;left:-16.47%;">
                 <c-image
-                    :src="require('@/assets/images/features-split-top-01.png')"
+                    :src="require('@/assets/images/dq_pattern.jpg')"
                     alt="Features split top 01"
                     :width="738"
                     :height="570"/>
