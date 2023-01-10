@@ -35,10 +35,10 @@
 <!--                                </c-button>-->
 <!--                            </div>-->
                         </div>
-                        <div class="hero-figure is-3d split-item-image illustration-element-01 reveal-from-right">
+                        <div class="hero-figure is-3d split-item-image reveal-from-right">
                             <c-image
                                 class="has-shadow"
-                                :src="require('@/assets/images/tt_tag1.png')"
+                                src="https://images.unsplash.com/photo-1633493702341-4d04841df53b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
                                 alt="Hero image"
                                 :width="528"
                                 :height="396" />

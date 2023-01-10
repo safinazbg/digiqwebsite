@@ -33,20 +33,20 @@
               </p>
             </div>
             <div
-                class="split-item-image illustration-element-03"
+                class="split-item-image"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('@/assets/images/dq_pattern.jpg')"
+                  :src="require('@/assets/images/aims.jpg')"
                   alt="Features split image 01"
-                  :width="528"
-                  :height="396"/>
-              <div style="position:absolute;width:139.77%;max-width:139.77%;top:-13.88%;left:-16.47%;">
-                <c-image
-                    :src="require('@/assets/images/dq_pattern.jpg')"
-                    alt="Features split top 01"
-                    :width="738"
-                    :height="570"/>
-              </div>
+                  style="padding:100px"
+                  />
+<!--              <div style="position:absolute;width:139.77%;max-width:139.77%;top:-13.88%;left:-16.47%;">-->
+<!--                <c-image-->
+<!--                    src="https://images.unsplash.com/photo-1625014618427-fbc980b974f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"-->
+<!--                    alt="Features split top 01"-->
+<!--                    :width="738"-->
+<!--                    :height="570"/>-->
+<!--              </div>-->
             </div>
           </div>
 
@@ -62,21 +62,21 @@
               </p>
             </div>
             <div
-                class="split-item-image illustration-element-04 reveal-rotate-from-right"
+                class="split-item-image reveal-rotate-from-right"
                 data-reveal-container=".split-item"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('@/assets/images/features-split-image.svg')"
+                  :src="require('@/assets/images/aims.jpg')"
                   alt="Features split image 02"
-                  :width="528"
-                  :height="396"/>
-              <div style="position:absolute;width:140.91%;max-width:140.91%;top:-13.88%;left:-24.43%;">
-                <c-image
-                    :src="require('@/assets/images/features-split-top-02.png')"
-                    alt="Features split top 02"
-                    :width="744"
-                    :height="512"/>
-              </div>
+                  style="padding:100px"
+                  />
+<!--              <div style="position:absolute;width:140.91%;max-width:140.91%;top:-13.88%;left:-24.43%;">-->
+<!--                <c-image-->
+<!--                    :src="require('@/assets/images/features-split-top-02.png')"-->
+<!--                    alt="Features split top 02"-->
+<!--                    :width="744"-->
+<!--                    :height="512"/>-->
+<!--              </div>-->
             </div>
           </div>
         </div>
@@ -99,11 +99,11 @@ export default {
   mixins: [SectionSplitProps],
   data() {
     return {
-      // sectionHeader: {
-      //   title: 'Simplify your design process',
-      //   paragraph:
-      //       'Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.'
-      // }
+      sectionHeader: {
+        title: 'Simplify your design process',
+        paragraph:
+            'Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.'
+      }
     }
   }
 }
