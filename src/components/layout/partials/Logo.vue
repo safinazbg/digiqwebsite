@@ -5,7 +5,7 @@
                 <c-image
                     :src="require('@/assets/images/tanstag2.png')"
                     alt="Frame"
-                    style="height: 250px; width: 250px"
+                    style="height: 400px; width: 400px"
                 />
             </router-link>
         </h1>

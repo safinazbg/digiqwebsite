@@ -16,6 +16,7 @@
                 ]">
         <div
             class="split-wrap"
+            style="margin-top: -10rem"
             :class="[
                         invertMobile && 'invert-mobile',
                         invertDesktop && 'invert-desktop',
@@ -50,7 +51,7 @@
             </div>
           </div>
 
-          <div class="split-item reveal-from-top">
+          <div class="split-item reveal-from-top" style="margin-top: -5rem">
             <div class="split-item-content center-content-mobile">
               <h3 class="mt-0 mb-16">
                 Aims and Ambitions
@@ -68,7 +69,7 @@
               <c-image
                   :src="require('@/assets/images/aims.jpg')"
                   alt="Features split image 02"
-                  style="padding:100px"
+                  style="padding:100px; margin-bottom: -5rem"
                   />
 <!--              <div style="position:absolute;width:140.91%;max-width:140.91%;top:-13.88%;left:-24.43%;">-->
 <!--                <c-image-->
