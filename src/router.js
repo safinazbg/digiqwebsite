@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
-import Secondary from './views/Partners.vue';
+import Partners from './views/Partners.vue';
 import Project from "./views/Project";
 import Resources from "./views/Resources";
 
@@ -15,9 +15,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/secondary',
-      name: 'secondary',
-      component: Secondary
+      path: '/partners',
+      name: 'partners',
+      component: Partners
     },{
       path: '/project',
       name: 'project',
