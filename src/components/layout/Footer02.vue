@@ -6,66 +6,15 @@
                     <div class="footer-blocks">
                         <div class="footer-block">
                             <c-logo class="mb-16" />
-                            <div class="footer-copyright">&copy; 2020 Frame, all rights reserved</div>
                         </div>
-                        <div class="footer-block">
-                            <div class="footer-block-title">Company</div>
-                            <ul class="list-reset">
-                                <li>
-                                    <a href="#">Dummy text used</a>
-                                </li>
-                                <li>
-                                    <a href="#">The purpose of lorem</a>
-                                </li>
-                                <li>
-                                    <a href="#">Filler text can be very useful</a>
-                                </li>
-                                <li>
-                                    <a href="#">Be on design</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer-block">
-                            <div class="footer-block-title">Uses cases</div>
-                            <ul class="list-reset">
-                                <li>
-                                    <a href="#">Consectetur adipiscing</a>
-                                </li>
-                                <li>
-                                    <a href="#">Lorem Ipsum is place</a>
-                                </li>
-                                <li>
-                                    <a href="#">Excepteur sint</a>
-                                </li>
-                                <li>
-                                    <a href="#">Occaecat cupidatat</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer-block">
-                            <div class="footer-block-title">Docs</div>
-                            <ul class="list-reset mb-0">
-                                <li>
-                                    <a href="#">The purpose of lorem</a>
-                                </li>
-                                <li>
-                                    <a href="#">Dummy text used</a>
-                                </li>
-                                <li>
-                                    <a href="#">Excepteur sint</a>
-                                </li>
-                                <li>
-                                    <a href="#">Occaecat cupidatat</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="footer-bottom space-between center-content-mobile text-xxs">
                     <c-footer-nav />
                     <c-footer-social />
                 </div>
             </div>
+        </div>
         </div>
     </footer>
 </template>
@@ -86,7 +35,7 @@ export default {
     topOuterDivider: {
       type: Boolean,
       default: false
-    },      
+    },
     topDivider: {
       type: Boolean,
       default: false

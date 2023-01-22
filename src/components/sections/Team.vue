@@ -23,7 +23,7 @@
                         pushLeft && 'push-left',
                     ]">
 <!--this is the place where I added inline style-->
-                  <div style="padding-left: 10px; padding-right: 40px; margin-top: -1rem">
+                  <div style="padding-right: 40px; margin-top: -1rem">
                     <h2>Aarhus University</h2>
                     <img src="../../assets/images/AUlogo.png" height="150" width="150"/>
                     <p style="contain: size; font-size: 14px; line-height: normal; margin-top: 1rem; margin-bottom: 1rem">Aarhus University is a top 100 university with award-winning research and 50+ Master's and Bachelor's programmes taught in English.</p>

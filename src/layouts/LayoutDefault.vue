@@ -1,7 +1,7 @@
 <template>
     <fragment>
         <c-header nav-position="right" />
-        <main class="site-content">
+        <main class="site-content bg-blue-200">
             <slot />
         </main>
         <c-footer class="illustration-section-06" />
