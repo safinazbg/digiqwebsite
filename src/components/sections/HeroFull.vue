@@ -17,7 +17,7 @@
                 <div class="hero-content">
                     <div class="container-xs">
                         <h1 class="mt-0 reveal-from-top">
-                            Engage Your Visitors with a beautiful template
+                            Engage
                         </h1>
                     </div>
                 </div>

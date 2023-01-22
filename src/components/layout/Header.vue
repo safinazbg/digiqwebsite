@@ -25,7 +25,7 @@
                             class="list-reset text-xxs"
                             :class="navPosition && `header-nav-${navPosition}`">
                             <li>
-                                <router-link to="/secondary/">Partners</router-link>
+                                <router-link to="/partners/">Partners</router-link>
                             </li>
                           <li>
                             <router-link to="/project/">Project</router-link>
