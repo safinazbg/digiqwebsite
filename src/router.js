@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
-import Secondary from './views/Secondary.vue';
+import Secondary from './views/Partners.vue';
 import Project from "./views/Project";
 import Resources from "./views/Resources";
 

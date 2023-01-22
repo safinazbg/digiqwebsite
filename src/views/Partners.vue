@@ -26,7 +26,7 @@ import CImage from '@/components/elements/Image.vue'
 
 
 export default {
-  name: 'Secondary',
+  name: 'Partners',
   components: {
     CSectionHeader,
     CTeam,
