@@ -1,4 +1,5 @@
 <template>
+
     <fragment>
         <c-hero-split image-fill class="illustration-section-01" />
         <c-clients top-divider bottom-divider />
@@ -10,9 +11,7 @@
 </template>
 
 <script>
-// import layout
 import CLayout from '@/layouts/LayoutDefault.vue'
-// import sections
 import CHeroSplit from '@/components/sections/HeroSplit.vue'
 import CFeaturesSplit from '@/components/sections/FeaturesSplit.vue'
 import CFeaturesTiles from '@/components/sections/FeaturesTiles.vue'

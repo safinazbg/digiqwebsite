@@ -10,7 +10,7 @@
 
 <script>
 import CHeader from '@/components/layout/Header.vue'
-import CFooter from '@/components/layout/Footer02.vue'
+import CFooter from '@/components/layout/Footer.vue'
 export default {
   components: {
     CHeader,

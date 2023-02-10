@@ -24,10 +24,10 @@
                     <div class="split-item">
                         <div class="hero-content split-item-content center-content-mobile">
                             <h1 class="mt-0 mb-16 reveal-from-left">
-                              Transforming the Landscape of Education and Training for the Future of Quantum Workforce
+                              Transforming the Landscape of Quantum Technology Education
                             </h1>
                             <p class="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
-                                DigiQ Projet is lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque cum in nobis voluptates met deserunt maiores.
+                              24 Organisations from 10 countries are changing the way that Quantum Technologies are taught across Europe.
                             </p>
 <!--                            <div class="reveal-from-left" data-reveal-delay="400">-->
 <!--                                <c-button tag="a" color="primary" wide-mobile href="#">-->
@@ -38,10 +38,12 @@
                         <div class="hero-figure is-3d split-item-image reveal-from-right">
                             <c-image
                                 class="has-shadow"
-                                src="https://images.unsplash.com/photo-1633493702341-4d04841df53b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
+                                src="QOss.JPG"
                                 alt="Hero image"
                                 :width="528"
-                                :height="396" />
+                                :height="396"
+                                style="max-height:396px"
+                            />
                         </div>
                     </div>
                 </div>

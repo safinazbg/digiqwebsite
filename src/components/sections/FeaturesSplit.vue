@@ -1,6 +1,7 @@
 <template>
   <section
       class="features-split section"
+      style="margin-top: 4rem"
       :class="[
             topOuterDivider && 'has-top-divider',
             bottomOuterDivider && 'has-bottom-divider',
@@ -28,19 +29,19 @@
                 Mission of DigiQ
               </h3>
               <p class="m-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
+                In order to meet the emerging need for a quantum-ready workforce in the coming decade, university training efforts within Quantum Technology will not only have to be massively scaled up but also comprehensively reformed. There is an urgent need for a wider understanding of the underpinnings of the quantum revolution as well as an increased awareness for the commercial potential of quantum innovations in the coming generations of quantum physicists. The DigiQ project will spearhead a transformation of the educational ecosystem by introducing both a series of didactical innovations as well as a multinational program structure ready to be scaled up to the rest of the European Higher Education Area.
               </p>
             </div>
             <div
-                class="split-item-image"
+                class="w-full split-item-image"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('@/assets/images/aims.jpg')"
+                  :src="require('../../../public/mission.png')"
                   alt="Features split image 01"
-                  style="padding:100px"
-                  />
+              />
+              <div class="w-full flex justify-end text-sm" style="margin-top: .5rem">
+                DigiQ-Module: <a href="https://quatomic.com" target="_blank">Quantum Composer</a>, Aarhus University
+              </div>
 <!--              <div style="position:absolute;width:139.77%;max-width:139.77%;top:-13.88%;left:-16.47%;">-->
 <!--                <c-image-->
 <!--                    src="https://images.unsplash.com/photo-1625014618427-fbc980b974f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"-->
@@ -51,26 +52,32 @@
             </div>
           </div>
 
-          <div class="split-item reveal-from-top" style="margin-top: -5rem">
+          <div class="split-item reveal-from-top"
+          style="margin-top: 4rem">
             <div class="split-item-content center-content-mobile">
               <h3 class="mt-0 mb-16">
                 Aims and Ambitions
               </h3>
-              <p class="m-0">
-                The DigiQ project will provide high quality and pan-European standardisation in higher education
-                quantum technology programs. It aims to take a major step in realising the Digital Decade goal “for
-                Europe to be at the cutting edge of quantum capabilities by 2030”.
-              </p>
+              <div class="m-0">
+                <ul>
+                  <li>Develop 16 Quantum Technology Master degrees across Europe.</li>
+                  <li>Provide a personalised route for thousands of top students to a Quantum Workforce.</li>
+                  <li>Disseminate multilingual educational resources for the whole of Europe.</li>
+                  <li>Help to build the Quantum Industry through a Pan-European mobility program.</li>
+                </ul>
+              </div>
             </div>
             <div
                 class="split-item-image reveal-rotate-from-right"
                 data-reveal-container=".split-item"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('@/assets/images/aims.jpg')"
+                  :src="require('../../../public/SMP outreach training.png')"
                   alt="Features split image 02"
-                  style="padding:100px; margin-bottom: -5rem"
-                  />
+              />
+              <div class="w-full flex justify-end text-sm" style="margin-top: .5rem">
+                DigiQ-Module: Outreach and DEI Training, <a href="https://www.sciencemeltingpot.com/" target="_blank">Science Melting Pot</a>
+              </div>
 <!--              <div style="position:absolute;width:140.91%;max-width:140.91%;top:-13.88%;left:-24.43%;">-->
 <!--                <c-image-->
 <!--                    :src="require('@/assets/images/features-split-top-02.png')"-->
@@ -88,13 +95,11 @@
 
 <script>
 import {SectionSplitProps} from '@/utils/SectionProps.js'
-import CSectionHeader from '@/components/sections/partials/SectionHeader.vue'
 import CImage from '@/components/elements/Image.vue'
 
 export default {
   name: 'CFeaturesSplit',
   components: {
-    CSectionHeader,
     CImage
   },
   mixins: [SectionSplitProps],

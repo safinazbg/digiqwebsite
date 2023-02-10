@@ -1,112 +1,1102 @@
 <template>
-    <section
-        class="team section center-content"
-        :class="[
+  <section
+      class="team section center-content"
+      :class="[
             topOuterDivider && 'has-top-divider',
             bottomOuterDivider && 'has-bottom-divider',
             hasBgColor && 'has-bg-color',
             invertColor && 'invert-color'
         ]">
 
-        <div class="container">
+
+    <div class="container section-inner">
+
+      <section-header :data="sectionHeader" class="center-content reveal-from-top" style="margin-bottom: 3rem"/>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Aarhus University</h3>
+            <img src="../../../public/Aarhus_University_logo.svg.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="position: relative">
             <div
-                class="team-inner section-inner"
-                :class="[
-                    topDivider && 'has-top-divider',
-                    bottomDivider && 'has-bottom-divider'
-                ]">
-                <c-section-header :data="sectionHeader" class="center-content reveal-from-top" style="margin-bottom: 3rem" />
-                <div
-                    class="tiles-wrap has-top-divider"
-
-                    :class="[
-                        pushLeft && 'push-left',
-                    ]">
-<!--this is the place where I added inline style-->
-                  <div style="padding-right: 40px; margin-top: -1rem">
-                    <h2>Aarhus University</h2>
-                    <img src="../../assets/images/AUlogo.png" height="150" width="150"/>
-                    <p style="contain: size; font-size: 14px; line-height: normal; margin-top: 1rem; margin-bottom: 1rem">Aarhus University is a top 100 university with award-winning research and 50+ Master's and Bachelor's programmes taught in English.</p>
+                style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
+              Coordinator,<br>
+              WP1, WP5 Lead
+            </div>
+            <div style="display: flex;align-items: center">
+              <div class="tiles-item">
+                <div class="tiles-item-inner">
+                  <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                    <div class="team-item-image mb-24">
+                      <c-image
+                          :src="require('../../../public/JacobSherson.png')"
+                          alt="Team member 01"
+                          style="border-radius: 50%; height: 100px;"
+                      />
+                    </div>
                   </div>
-
-                    <div class="tiles-item">
-                        <div class="tiles-item-inner">
-                            <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
-                                <div class="team-item-image mb-24">
-                                    <c-image
-                                        :src="require('@/assets/images/jacob.jpg')"
-                                        alt="Team member 01"
-                                        style="border-radius: 50%; height: 100px; width: 100px;"
-
-                                    />
-                                </div>
-                            </div>
-                            <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
-                                <h5 class="team-item-name mt-0 mb-4">
-                                    Jacob Sherson
-                                </h5>
-                                <div class="team-item-role text-xxs tt-u text-color-primary mb-8">
-                                    Professor
-                                </div>
-                                <p class="m-0 text-sm">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tiles-item">
-                        <div class="tiles-item-inner">
-                            <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="150">
-                                <div class="team-item-image mb-24">
-                                    <c-image
-                                        :src="require('@/assets/images/simon.jpg')"
-                                        alt="Team member 02"
-                                        style="border-radius: 50%; width: 100px; height: 100px"
-                                    />
-                                </div>
-                            </div>
-                            <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="350">
-                                <h5 class="team-item-name mt-0 mb-4">
-                                  Simon Richard Goorney
-                                </h5>
-                                <div class="team-item-role text-xxs tt-u text-color-primary mb-8">
-                                    PhD Fellow
-                                </div>
-                                <p class="m-0 text-sm">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                  <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                       data-reveal-delay="200">
+                    <h5 class="team-item-name mt-0 mb-4">
+                      Jacob Sherson
+                    </h5>
+                  </div>
                 </div>
+              </div>
+
+              <div class="tiles-item">
+                <div class="tiles-item-inner">
+                  <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                    <div class="team-item-image mb-24">
+                      <c-image
+                          :src="require('@/assets/images/simon.jpg')"
+                          alt="Team member 01"
+                          style="border-radius: 50%; height: 100px; width: 100px;"
+                      />
+                    </div>
+                  </div>
+                  <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                       data-reveal-delay="200">
+                    <h5 class="team-item-name mt-0 mb-4">
+                      Simon Richard Goorney
+                    </h5>
+                  </div>
+                </div>
+              </div>
 
             </div>
-        </div>
-    </section>
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">ICFO – The Institute of
+              Photonic Sciences</h3>
+            <img src="../../../public/ICFO-01.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/RobSewellStudio.jpeg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Robert Sewell
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">ICN2: Catalan Institute
+              of Nanoscience and
+              Nanotechnology</h3>
+            <img src="../../../public/logo_ICN2.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/JoseH_ICN2.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Jose Hugo Garcia
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Czech Technical
+              University of Prague</h3>
+            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="position: relative">
+            <div
+                style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
+              WP2 Lead
+            </div>
+            <div style="display: flex;align-items: center">
+              <div class="tiles-item">
+                <div class="tiles-item-inner">
+                  <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                    <div class="team-item-image mb-24">
+                      <c-image
+                          :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                          alt="Team member 01"
+                          style="border-radius: 50%; height: 100px; width: 100px;"
+                      />
+                    </div>
+                  </div>
+                  <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                       data-reveal-delay="200">
+                    <h5 class="team-item-name mt-0 mb-4">
+                      Aurel Gabris
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Copenhagen
+              University</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/ku_co_uk_h.jpg" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Heidelberg
+              University</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/hd_logo_standard_16cm_rgb.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="position: relative">
+            <div
+                style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
+              WP3 Lead
+            </div>
+            <div style="display: flex;align-items: center">
+              <div class="tiles-item">
+                <div class="tiles-item-inner">
+                  <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                    <div class="team-item-image mb-24">
+                      <c-image
+                          :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                          alt="Team member 01"
+                          style="border-radius: 50%; height: 100px; width: 100px;"
+                      />
+                    </div>
+                  </div>
+                  <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                       data-reveal-delay="200">
+                    <h5 class="team-item-name mt-0 mb-4">
+                      Martin Gaerttner
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Science Melting Pot</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/SMP_transparent.png" height="200" width="150"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/Shaeema_SMP.jpeg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Shaeema Zaman
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">University of
+              Paris-Saclay</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/UPS1.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Centrale Supelec</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/ecole-centrale-supelec-logo-0B3865DB96-seeklogo.com.png" height="200"
+                 width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">École Normale
+              Supérieure of Paris</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/logo_ENS_-_PSL.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/Tarik Yefsah.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Tarik Yefash
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">University of Barcelona</h3>
+            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+            <!--            <img src="../../../public/logo_ENS_-_PSL.png" height="200" width="200"/>-->
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">University of Pisa</h3>
+            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+            <!--            <img src="../../../public/logo_ENS_-_PSL.png" height="200" width="200"/>-->
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/IMG_5233.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Marilu Chiofalo
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">RWTH Aachen University</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/logo_rwth_rgb.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/20221129_DIGIQ_Final-09078.jpeg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Lisa Otten
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Ludwig Maximilian
+              University of Munich</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/LMU_Logo_CMYK_FlaechigGruen.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="position: relative">
+            <div style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
+              WP4 Lead
+            </div>
+            <div style="display: flex;align-items: center">
+              <div class="tiles-item">
+                <div class="tiles-item-inner">
+                  <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                    <div class="team-item-image mb-24">
+                      <c-image
+                          :src="require('../../../public/Kuhn.jpg')"
+                          alt="Team member 01"
+                          style="border-radius: 50%; height: 100px; width: 100px;"
+                      />
+                    </div>
+                  </div>
+                  <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                       data-reveal-delay="200">
+                    <h5 class="team-item-name mt-0 mb-4">
+                      Jochen Kuhn
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tiles-item">
+                <div class="tiles-item-inner">
+                  <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                    <div class="team-item-image mb-24">
+                      <c-image
+                          :src="require('../../../public/Küchemann.jpg')"
+                          alt="Team member 01"
+                          style="border-radius: 50%; height: 100px; width: 100px;"
+                      />
+                    </div>
+                  </div>
+                  <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                       data-reveal-delay="200">
+                    <h5 class="team-item-name mt-0 mb-4">
+                      Stefan Kücheman
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">University of
+              Strasbourg</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/Signature_Universite_Strasbourg_Unistra2_Transparent.png" height="200"
+                 width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">University of Helsinki</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/UH_logo_black.png" height="150" width="150"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Autonomous
+              University of
+              Barcelona</h3>
+            <!--            <img src="../../assets/images/UAB-" height="200" width="200"/>-->
+            <img src="../../../public/UAB-Logo-centered.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/John_pict.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    John Calsamiglia Costa
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Technische Universität
+              München</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/TUM.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/holleitner_small.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Alexander Holleitner
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Quarks Interactive</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/QI-full-dark.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">University of
+              Technology of Troyes</h3>
+            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+            <!--            <img src="../../../public/QI-full-dark.png" height="200" width="200"/>-->
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Sorbonne University</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/LOGO_SU.jpg" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/Clement Sayrin.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Clement Sayrin
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Portuguese Quantum
+              Institute</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/PQI.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/Joao Seixas.jpeg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Joao Seixas
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Deloitte Portugal</h3>
+            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+            <!--    <img src="../../../public/LOGO_SU.jpg" height="200" width="200"/>-->
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Instituto Superior
+              Técnico</h3>
+            <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
+            <img src="../../../public/IST_A_RGB_POS.png" height="200" width="200"/>
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/Yasser Omar.jpg')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    Yasser Omar
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+      <p style="border-bottom: 1px solid black">&nbsp;</p>
+
+      <LPartnerSection>
+        <template #organisation>
+
+          <div>
+            <h3 style="margin-top: 0">Technical University of
+              Denmark</h3>
+            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+            <!--            <img src="../../../public/LOGO_SU.jpg" height="200" width="200"/>-->
+          </div>
+
+        </template>
+        <template #people>
+
+          <div style="display: flex;align-items: center">
+            <div class="tiles-item">
+              <div class="tiles-item-inner">
+                <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
+                  <div class="team-item-image mb-24">
+                    <c-image
+                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        alt="Team member 01"
+                        style="border-radius: 50%; height: 100px; width: 100px;"
+                    />
+                  </div>
+                </div>
+                <div class="team-item-content reveal-from-top" data-reveal-container=".tiles-item"
+                     data-reveal-delay="200">
+                  <h5 class="team-item-name mt-0 mb-4">
+                    First Last
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </template>
+      </LPartnerSection>
+
+
+    </div>
+  </section>
 </template>
 
 <script>
-import { SectionTilesProps } from '@/utils/SectionProps.js'
-import CSectionHeader from '@/components/sections/partials/SectionHeader.vue'
+import {SectionTilesProps} from '@/utils/SectionProps.js'
 import CImage from '@/components/elements/Image.vue'
+import LPartnerSection from "@/components/layout/LPartnerSection.vue";
+import SectionHeader from "@/components/sections/partials/SectionHeader.vue";
 
 export default {
   name: 'CTeam',
   components: {
-    CSectionHeader,
-    CImage
+    CImage,
+    SectionHeader,
+    LPartnerSection,
   },
   mixins: [SectionTilesProps],
   data() {
     return {
       sectionHeader: {
-        title: 'Meet the team',
-        paragraph:
-          'DigiQ is a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        title: 'Partners',
+        paragraph: ''
       }
     }
   }
 }
 </script>
+<style>
+.orgTitle {
+  font-weight: bold;
+  font-size: large;
+}
+</style>

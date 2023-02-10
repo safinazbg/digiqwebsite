@@ -1,5 +1,6 @@
 <template>
     <fragment>
+
         <c-team class="illustration-section-04"/>
 
         <c-generic-section top-divider>
@@ -12,27 +13,15 @@
 </template>
 
 <script>
-// import layout
 import CLayout from '@/layouts/LayoutAlternative.vue'
-// import section header
-import CSectionHeader from '@/components/sections/partials/SectionHeader.vue'
-// import sections
 import CTeam from '@/components/sections/Team.vue'
-
-// import some required elements
-import CImage from '@/components/elements/Image.vue'
-
-
-
+import LPartnerSection from "@/components/layout/LPartnerSection.vue";
 
 export default {
   name: 'Partners',
   components: {
-    CSectionHeader,
     CTeam,
-    CImage,
-
-
+    LPartnerSection,
   },
   data() {
     return {

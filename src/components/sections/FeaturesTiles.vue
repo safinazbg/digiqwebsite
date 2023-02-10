@@ -158,7 +158,7 @@ export default {
   data() {
     return {
       sectionHeader: {
-        title: 'How is DigiQ organized?',
+        title: 'How is DigiQ organised?',
         paragraph: 'The project has 5 work packages aimed toward revealing the development of DIGIQ’s vision and work plan.'
       }
     }

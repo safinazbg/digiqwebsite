@@ -1,7 +1,7 @@
 <template>
     <header class="site-header invert-color" :class="bottomOuterDivider && 'has-bottom-divider'">
         <div class="container">
-            <div class="site-header-inner" :class="bottomDivider && 'has-bottom-divider'">
+            <div class="site-header-inner" :class="bottomDivider && 'has-bottom-divider'" style="margin-top: 1rem">
                 <c-logo />
                 <button
                     v-if="!hideNav"
@@ -23,15 +23,22 @@
                     <div class="header-nav-inner">
                         <ul
                             class="list-reset text-xxs"
-                            :class="navPosition && `header-nav-${navPosition}`">
+                            :class="navPosition && `header-nav-${navPosition}`"
+                        >
+                          <li>
+                            <router-link to="/">Home</router-link>
+                          </li>
                             <li>
                                 <router-link to="/partners/">Partners</router-link>
                             </li>
-                          <li>
-                            <router-link to="/project/">Project</router-link>
-                          </li>
+<!--                          <li>-->
+<!--                            <router-link to="/project/">Project</router-link>-->
+<!--                          </li>-->
                           <li>
                             <router-link to="/resources/">Resources</router-link>
+                          </li>
+                          <li>
+                            <router-link to="/contact/">Contact</router-link>
                           </li>
                         </ul>
                     </div>

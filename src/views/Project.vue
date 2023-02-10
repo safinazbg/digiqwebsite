@@ -99,18 +99,10 @@
 </template>
 
 <script>
-// import layout
 import CLayout from '@/layouts/LayoutAlternative.vue'
-// import section header
 import CSectionHeader from '@/components/sections/partials/SectionHeader.vue'
-// import sections
-import CHeroFull from '@/components/sections/HeroFull.vue'
-import CRoadmap from '@/components/sections/Roadmap.vue'
-import CTestimonial from '@/components/sections/Testimonial.vue'
 import CGenericSection from '@/components/sections/GenericSection.vue'
-// import some required elements
 import CImage from '@/components/elements/Image.vue'
-import CModal from '@/components/elements/Modal.vue'
 import CAccordion from '@/components/elements/Accordion.vue'
 import CAccordionItem from '@/components/elements/AccordionItem.vue'
 
@@ -118,12 +110,8 @@ export default {
   name: 'Project',
   components: {
     CSectionHeader,
-    CHeroFull,
-    CRoadmap,
-    CTestimonial,
     CGenericSection,
     CImage,
-    CModal,
     CAccordion,
     CAccordionItem
   },
