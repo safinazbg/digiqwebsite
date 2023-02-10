@@ -18,7 +18,7 @@
 
           <div>
             <h3 style="margin-top: 0">Aarhus University</h3>
-            <img src="../../../public/Aarhus_University_logo.svg.png" height="200" width="200"/>
+            <img src="../../assets/images/Aarhus_University_logo.svg.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -36,7 +36,7 @@
                   <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                     <div class="team-item-image mb-24">
                       <c-image
-                          :src="require('../../../public/JacobSherson.png')"
+                          :src="require('../../assets/images/JacobSherson.png')"
                           alt="Team member 01"
                           style="border-radius: 50%; height: 100px;"
                       />
@@ -84,7 +84,7 @@
           <div>
             <h3 style="margin-top: 0">ICFO – The Institute of
               Photonic Sciences</h3>
-            <img src="../../../public/ICFO-01.png" height="200" width="200"/>
+            <img src="../../assets/images/ICFO-01.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -96,7 +96,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/RobSewellStudio.jpeg')"
+                        :src="require('../../assets/images/RobSewellStudio.jpeg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -124,7 +124,7 @@
             <h3 style="margin-top: 0">ICN2: Catalan Institute
               of Nanoscience and
               Nanotechnology</h3>
-            <img src="../../../public/logo_ICN2.png" height="200" width="200"/>
+            <img src="../../assets/images/logo_ICN2.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -136,7 +136,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/JoseH_ICN2.jpg')"
+                        :src="require('../../assets/images/JoseH_ICN2.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px;"
                     />
@@ -180,7 +180,7 @@
                   <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                     <div class="team-item-image mb-24">
                       <c-image
-                          :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                          :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                           alt="Team member 01"
                           style="border-radius: 50%; height: 100px; width: 100px;"
                       />
@@ -209,7 +209,7 @@
             <h3 style="margin-top: 0">Copenhagen
               University</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/ku_co_uk_h.jpg" height="200" width="200"/>
+            <img src="../../assets/images/ku_co_uk_h.jpg" height="200" width="200"/>
           </div>
 
         </template>
@@ -221,7 +221,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -249,7 +249,7 @@
             <h3 style="margin-top: 0">Heidelberg
               University</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/hd_logo_standard_16cm_rgb.png" height="200" width="200"/>
+            <img src="../../assets/images/hd_logo_standard_16cm_rgb.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -266,7 +266,7 @@
                   <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                     <div class="team-item-image mb-24">
                       <c-image
-                          :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                          :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                           alt="Team member 01"
                           style="border-radius: 50%; height: 100px; width: 100px;"
                       />
@@ -294,7 +294,7 @@
           <div>
             <h3 style="margin-top: 0">Science Melting Pot</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/SMP_transparent.png" height="200" width="150"/>
+            <img src="../../assets/images/SMP_transparent.png" height="200" width="150"/>
           </div>
 
         </template>
@@ -306,7 +306,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/Shaeema_SMP.jpeg')"
+                        :src="require('../../assets/images/Shaeema_SMP.jpeg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -334,7 +334,7 @@
             <h3 style="margin-top: 0">University of
               Paris-Saclay</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/UPS1.png" height="200" width="200"/>
+            <img src="../../assets/images/UPS1.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -346,7 +346,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -373,7 +373,7 @@
           <div>
             <h3 style="margin-top: 0">Centrale Supelec</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/ecole-centrale-supelec-logo-0B3865DB96-seeklogo.com.png" height="200"
+            <img src="../../assets/images/ecole-centrale-supelec-logo-0B3865DB96-seeklogo.com.png" height="200"
                  width="200"/>
           </div>
 
@@ -387,7 +387,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -415,7 +415,7 @@
             <h3 style="margin-top: 0">École Normale
               Supérieure of Paris</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/logo_ENS_-_PSL.png" height="200" width="200"/>
+            <img src="../../assets/images/logo_ENS_-_PSL.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -427,7 +427,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/Tarik Yefsah.jpg')"
+                        :src="require('../../assets/images/Tarik Yefsah.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -454,7 +454,7 @@
           <div>
             <h3 style="margin-top: 0">University of Barcelona</h3>
             <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
-            <!--            <img src="../../../public/logo_ENS_-_PSL.png" height="200" width="200"/>-->
+            <!--            <img src="../../assets/images/logo_ENS_-_PSL.png" height="200" width="200"/>-->
           </div>
 
         </template>
@@ -466,7 +466,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -493,7 +493,7 @@
           <div>
             <h3 style="margin-top: 0">University of Pisa</h3>
             <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
-            <!--            <img src="../../../public/logo_ENS_-_PSL.png" height="200" width="200"/>-->
+            <!--            <img src="../../assets/images/logo_ENS_-_PSL.png" height="200" width="200"/>-->
           </div>
 
         </template>
@@ -505,7 +505,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/IMG_5233.jpg')"
+                        :src="require('../../assets/images/IMG_5233.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -532,7 +532,7 @@
           <div>
             <h3 style="margin-top: 0">RWTH Aachen University</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/logo_rwth_rgb.png" height="200" width="200"/>
+            <img src="../../assets/images/logo_rwth_rgb.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -544,7 +544,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/20221129_DIGIQ_Final-09078.jpeg')"
+                        :src="require('../../assets/images/20221129_DIGIQ_Final-09078.jpeg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -572,7 +572,7 @@
             <h3 style="margin-top: 0">Ludwig Maximilian
               University of Munich</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/LMU_Logo_CMYK_FlaechigGruen.png" height="200" width="200"/>
+            <img src="../../assets/images/LMU_Logo_CMYK_FlaechigGruen.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -588,7 +588,7 @@
                   <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                     <div class="team-item-image mb-24">
                       <c-image
-                          :src="require('../../../public/Kuhn.jpg')"
+                          :src="require('../../assets/images/Kuhn.jpg')"
                           alt="Team member 01"
                           style="border-radius: 50%; height: 100px; width: 100px;"
                       />
@@ -608,7 +608,7 @@
                   <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                     <div class="team-item-image mb-24">
                       <c-image
-                          :src="require('../../../public/Küchemann.jpg')"
+                          :src="require('../../assets/images/Küchemann.jpg')"
                           alt="Team member 01"
                           style="border-radius: 50%; height: 100px; width: 100px;"
                       />
@@ -636,7 +636,7 @@
             <h3 style="margin-top: 0">University of
               Strasbourg</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/Signature_Universite_Strasbourg_Unistra2_Transparent.png" height="200"
+            <img src="../../assets/images/Signature_Universite_Strasbourg_Unistra2_Transparent.png" height="200"
                  width="200"/>
           </div>
 
@@ -649,7 +649,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -676,7 +676,7 @@
           <div>
             <h3 style="margin-top: 0">University of Helsinki</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/UH_logo_black.png" height="150" width="150"/>
+            <img src="../../assets/images/UH_logo_black.png" height="150" width="150"/>
           </div>
 
         </template>
@@ -688,7 +688,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -717,7 +717,7 @@
               University of
               Barcelona</h3>
             <!--            <img src="../../assets/images/UAB-" height="200" width="200"/>-->
-            <img src="../../../public/UAB-Logo-centered.png" height="200" width="200"/>
+            <img src="../../assets/images/UAB-Logo-centered.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -729,7 +729,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/John_pict.jpg')"
+                        :src="require('../../assets/images/John_pict.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -757,7 +757,7 @@
             <h3 style="margin-top: 0">Technische Universität
               München</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/TUM.png" height="200" width="200"/>
+            <img src="../../assets/images/TUM.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -769,7 +769,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/holleitner_small.jpg')"
+                        :src="require('../../assets/images/holleitner_small.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -796,7 +796,7 @@
           <div>
             <h3 style="margin-top: 0">Quarks Interactive</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/QI-full-dark.png" height="200" width="200"/>
+            <img src="../../assets/images/QI-full-dark.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -808,7 +808,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -836,7 +836,7 @@
             <h3 style="margin-top: 0">University of
               Technology of Troyes</h3>
             <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
-            <!--            <img src="../../../public/QI-full-dark.png" height="200" width="200"/>-->
+            <!--            <img src="../../assets/images/QI-full-dark.png" height="200" width="200"/>-->
           </div>
 
         </template>
@@ -848,7 +848,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -875,7 +875,7 @@
           <div>
             <h3 style="margin-top: 0">Sorbonne University</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/LOGO_SU.jpg" height="200" width="200"/>
+            <img src="../../assets/images/LOGO_SU.jpg" height="200" width="200"/>
           </div>
 
         </template>
@@ -887,7 +887,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/Clement Sayrin.jpg')"
+                        :src="require('../../assets/images/Clement Sayrin.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -915,7 +915,7 @@
             <h3 style="margin-top: 0">Portuguese Quantum
               Institute</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/PQI.png" height="200" width="200"/>
+            <img src="../../assets/images/PQI.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -927,7 +927,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/Joao Seixas.jpeg')"
+                        :src="require('../../assets/images/Joao Seixas.jpeg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -954,7 +954,7 @@
           <div>
             <h3 style="margin-top: 0">Deloitte Portugal</h3>
             <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
-            <!--    <img src="../../../public/LOGO_SU.jpg" height="200" width="200"/>-->
+            <!--    <img src="../../assets/images/LOGO_SU.jpg" height="200" width="200"/>-->
           </div>
 
         </template>
@@ -966,7 +966,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -994,7 +994,7 @@
             <h3 style="margin-top: 0">Instituto Superior
               Técnico</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
-            <img src="../../../public/IST_A_RGB_POS.png" height="200" width="200"/>
+            <img src="../../assets/images/IST_A_RGB_POS.png" height="200" width="200"/>
           </div>
 
         </template>
@@ -1006,7 +1006,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/Yasser Omar.jpg')"
+                        :src="require('../../assets/images/Yasser Omar.jpg')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />
@@ -1034,7 +1034,7 @@
             <h3 style="margin-top: 0">Technical University of
               Denmark</h3>
             <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
-            <!--            <img src="../../../public/LOGO_SU.jpg" height="200" width="200"/>-->
+            <!--            <img src="../../assets/images/LOGO_SU.jpg" height="200" width="200"/>-->
           </div>
 
         </template>
@@ -1046,7 +1046,7 @@
                 <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                   <div class="team-item-image mb-24">
                     <c-image
-                        :src="require('../../../public/300px-Placeholder_no_text.svg.png')"
+                        :src="require('../../assets/images/300px-Placeholder_no_text.svg.png')"
                         alt="Team member 01"
                         style="border-radius: 50%; height: 100px; width: 100px;"
                     />

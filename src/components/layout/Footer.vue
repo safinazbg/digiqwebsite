@@ -9,7 +9,7 @@
           <c-footer-social/>
           <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; max-width: 33%">
 
-            <img src="../../../public/euflag.png" alt="" width="120px">
+            <img src="../../assets/images/euflag.png" alt="" width="120px">
             <div>
               This project has received funding from
               the European Union’s Digital Europe

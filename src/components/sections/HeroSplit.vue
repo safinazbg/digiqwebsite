@@ -26,7 +26,7 @@
                             <h1 class="mt-0 mb-16 reveal-from-left">
                               Transforming the Landscape of Quantum Technology Education
                             </h1>
-                            <p class="mt-0 mb-32 reveal-from-left" data-reveal-delay="200">
+                            <p class="mt-0 mb-32 reveal-from-left" data-reveal-delay="200" style="font-size: 120%">
                               24 Organisations from 10 countries are changing the way that Quantum Technologies are taught across Europe.
                             </p>
 <!--                            <div class="reveal-from-left" data-reveal-delay="400">-->
@@ -54,13 +54,11 @@
 
 <script>
 import { SectionSplitProps } from '@/utils/SectionProps.js'
-import CButton from '@/components/elements/Button.vue'
 import CImage from '@/components/elements/Image.vue'
 
 export default {
   name: 'CHeroSplit',
   components: {
-    CButton,
     CImage
   },
   mixins: [SectionSplitProps]

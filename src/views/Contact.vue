@@ -23,7 +23,7 @@
               <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item">
                 <div class="team-item-image mb-24">
                   <c-image
-                      :src="require('../../public/JacobSherson.png')"
+                      :src="require('../assets/images/JacobSherson.png')"
                       alt="Team member 01"
                       style="border-radius: 50%; height: 100px; width: 100px;"
 
@@ -70,7 +70,7 @@
               <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="150">
                 <div class="team-item-image mb-24">
                   <c-image
-                      :src="require('../../public/300px-Placeholder_no_text.svg.png')"
+                      :src="require('../assets/images/300px-Placeholder_no_text.svg.png')"
                       alt="Team member 02"
                       style="border-radius: 50%; width: 100px; height: 100px"
                   />
@@ -92,7 +92,7 @@
               <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="150">
                 <div class="team-item-image mb-24">
                   <c-image
-                      :src="require('../../public/300px-Placeholder_no_text.svg.png')"
+                      :src="require('../assets/images/300px-Placeholder_no_text.svg.png')"
                       alt="Team member 03"
                       style="border-radius: 50%; width: 100px; height: 100px"
                   />
@@ -114,7 +114,7 @@
               <div class="team-item-header reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="150">
                 <div class="team-item-image mb-24">
                   <c-image
-                      :src="require('../../public/Küchemann.jpg')"
+                      :src="require('../assets/images/Küchemann.jpg')"
                       alt="Team member 02"
                       style="border-radius: 50%; width: 100px; height: 100px"
                   />

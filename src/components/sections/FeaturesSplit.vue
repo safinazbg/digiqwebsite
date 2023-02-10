@@ -36,7 +36,7 @@
                 class="w-full split-item-image"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('../../../public/mission.png')"
+                  :src="require('../../assets/images/mission.png')"
                   alt="Features split image 01"
               />
               <div class="w-full flex justify-end text-sm" style="margin-top: .5rem">
@@ -72,7 +72,7 @@
                 data-reveal-container=".split-item"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('../../../public/SMP outreach training.png')"
+                  :src="require('../../assets/images/SMP outreach training.png')"
                   alt="Features split image 02"
               />
               <div class="w-full flex justify-end text-sm" style="margin-top: .5rem">
