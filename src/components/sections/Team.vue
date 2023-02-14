@@ -16,20 +16,19 @@
       <LPartnerSection>
         <template #organisation>
 
-          <div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
             <h3 style="margin-top: 0">Aarhus University</h3>
             <img src="../../assets/images/Aarhus_University_logo.svg.png" height="200" width="200"/>
+            <div
+                style="margin-top: 1rem; border: 1px solid #00000088; width:200px; padding: 2px 2px; font-size: 14px; font-weight: bolder; background-color:rgba(116,166,234,0.27); border-radius: 4px">
+              Coordinator, WP1, WP5 Lead
+            </div>
           </div>
 
         </template>
         <template #people>
 
-          <div style="position: relative">
-            <div
-                style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
-              Coordinator,<br>
-              WP1, WP5 Lead
-            </div>
+          <div>
             <div style="display: flex;align-items: center">
               <div class="tiles-item">
                 <div class="tiles-item-inner">
@@ -160,20 +159,21 @@
       <LPartnerSection>
         <template #organisation>
 
-          <div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
             <h3 style="margin-top: 0">Czech Technical
               University of Prague</h3>
-            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>
+            <img src="../../assets/images/dq_icon1.png" height="150" width="150"/>
+            <div
+                style="margin-top: 1rem; border: 1px solid #00000088; width:100px; padding: 2px 2px; font-size: 14px; font-weight: bolder; background-color:rgba(116,166,234,0.27); border-radius: 4px">
+              WP2 Lead
+            </div>
           </div>
 
         </template>
         <template #people>
 
-          <div style="position: relative">
-            <div
-                style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
-              WP2 Lead
-            </div>
+          <div>
+
             <div style="display: flex;align-items: center">
               <div class="tiles-item">
                 <div class="tiles-item-inner">
@@ -245,21 +245,21 @@
       <LPartnerSection>
         <template #organisation>
 
-          <div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
             <h3 style="margin-top: 0">Heidelberg
               University</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
             <img src="../../assets/images/hd_logo_standard_16cm_rgb.png" height="200" width="200"/>
+            <div
+                style="margin-top: 1rem; border: 1px solid #00000088; width:100px; padding: 2px 2px; font-size: 14px; font-weight: bolder; background-color:rgba(116,166,234,0.27); border-radius: 4px">
+              WP3 Lead
+            </div>
           </div>
 
         </template>
         <template #people>
 
-          <div style="position: relative">
-            <div
-                style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
-              WP3 Lead
-            </div>
+          <div>
             <div style="display: flex;align-items: center">
               <div class="tiles-item">
                 <div class="tiles-item-inner">
@@ -568,20 +568,20 @@
       <LPartnerSection>
         <template #organisation>
 
-          <div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
             <h3 style="margin-top: 0">Ludwig Maximilian
               University of Munich</h3>
             <!--            <img src="../../assets/images/dq_icon1.png" height="200" width="200"/>-->
             <img src="../../assets/images/LMU_Logo_CMYK_FlaechigGruen.png" height="200" width="200"/>
+            <div style="margin-top: 1rem; border: 1px solid #00000088; width:100px; padding: 2px 2px; font-size: 14px; font-weight: bolder; background-color:rgba(116,166,234,0.27); border-radius: 4px">
+              WP4 Lead
+            </div>
           </div>
 
         </template>
         <template #people>
 
-          <div style="position: relative">
-            <div style="position: absolute; top: 0; right: 0; border: 1px solid #00000088; padding: 2px 4px; font-size: smaller; border-radius: 4px">
-              WP4 Lead
-            </div>
+          <div>
             <div style="display: flex;align-items: center">
               <div class="tiles-item">
                 <div class="tiles-item-inner">
