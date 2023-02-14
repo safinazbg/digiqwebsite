@@ -44,6 +44,11 @@
                                 :height="396"
                                 style="max-height:396px"
                             />
+                          <div class="w-full flex justify-end text-sm" style="margin-top: .5rem">
+                            DigiQ-Module: <a href="https://www.quarksinteractive.com/" target="_blank">Quantum Odyssey, Quarks Interactive</a>
+                          </div>
+
+
                         </div>
                     </div>
                 </div>
