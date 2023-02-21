@@ -72,7 +72,7 @@
                 data-reveal-container=".split-item"
                 :class="imageFill && 'split-item-image-fill'">
               <c-image
-                  :src="require('../../assets/images/SMP outreach training.png')"
+                  :src="require('../../assets/images/SMP outreach training.jpeg')"
                   alt="Features split image 02"
               />
               <div class="w-full flex justify-end text-sm" style="margin-top: .5rem">
